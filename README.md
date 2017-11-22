@@ -22,7 +22,7 @@ Node-REDのアプリURLにアクセスし、画面の指示に従ってエディ
 フローエディタ画面右上のメニューから「パレットの管理」をクリックし、「ノードを追加」タブで「node-red-contrib-linebot」を検索し、「node-red-contrib-linebot」の「ノードを追加」ボタンをクリックします。
 
 5. フローの読み込み  
-フローエディタ画面右上のメニューから「読み込み」->「クリップボード」とクリックし、テキストエリアに「aistarter_nodered_line_bot.json」の内容をコピーし、貼り付けます。
+フローエディタ画面右上のメニューから「読み込み」->「クリップボード」とクリックし、テキストエリアに「aistarter_nodered_linebot.json」の内容をコピーし、貼り付けます。
 
 6. Cloudantバインド設定の反映  
 全てのタブのCloudantノードをダブルクリックし、「Service」に「Node-REDのアプリ名+cloudantNoSQLDB」が表示されることを確認し、「完了」ボタンをクリックします。  
