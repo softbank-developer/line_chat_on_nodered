@@ -41,7 +41,7 @@ Node-REDのアプリURLにアクセスし、画面の指示に従ってエディ
 9. 分類器IDの設定  
 NLCの学習が完了したら「LINE連携」タブの「NLC Request」ノードにメモしたclassifier_idを設定し、「完了」ボタンをクリックします。
 
-10. LINE設定
+10. LINE設定  
 「LINE連携」タブの「Reply Message」ノードにLINEのChannel Access TokenとChannel Secretを設定し、「完了」ボタンをクリックします。  
 「CallBack」ノードのURLにLINEのWebhook URLを設定し、「完了」ボタンをクリックします。  
 ※Node-RED側の設定値を「/callback」とした場合、LINE側の設定値は、「[Node-REDのアプリURL]/callback」となります。
@@ -49,7 +49,7 @@ NLCの学習が完了したら「LINE連携」タブの「NLC Request」ノー�
 11. デプロイ  
 フローエディタ画面右上の「デプロイ」ボタンをクリックします。
 
-12. 回答登録・Index作成  
+12. 回答登録・Index作成  
 「回答データベース作成」タブの「回答データをここにコピペ」ノードに「学習データで使ったclass_name(重複なし),回答文,URL(任意)」をセットします。  
 「回答登録」ノードの左に付いているボタンをクリックします。  
 「Index作成」ノードの左に付いているボタンをクリックします。  
